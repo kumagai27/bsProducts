@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+
+/*-------------------------
+  初期値
+-------------------------*/
+/*-------------------------
+body {
+  padding-top: 100px;
+}
+  
+-------------------------*/
+body {
+  padding-top: 72px;
+  scroll-behavior: smooth;
+}
+
+
+
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+
+/*-------------------------
+  トップ
+-------------------------*/
+
+
+.ca .topics p {
+  text-align: justify;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 7;
+  overflow: hidden;
+
+
+}
+
+.topics .col-lg-4 {
+  scroll-margin-top: 50vw;
+}
+
+.btn-primary {
+  background-color: var(--key-color);
+
+  border: 1px solid var(--key-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--sub-color);
+
+  border: 1px solid var(--sub-color);
+}
+
+
+
+footer a {
+  color: #8e44ad;
+}
+
+footer a:hover {
+  color: #7e349d;
+}
+
+:root {
+  --key-color: #8e44ad;
+}
+
+:root {
+  --sub-color: #7e349d;
+}
